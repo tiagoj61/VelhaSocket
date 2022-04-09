@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jogodavelha.controller.GameScreenController">
+  <Button fx:id="b22" layoutX="265.0" layoutY="198.0" onAction="#getClick" prefHeight="75.0" prefWidth="75.0" text="">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+    <Button fx:id="b33" layoutX="383.0" layoutY="300.0" onAction="#getClick" prefHeight="75.0" prefWidth="75.0" text="">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+    <Button fx:id="b31" layoutX="141.0" layoutY="300.0" onAction="#getClick" prefHeight="75.0" prefWidth="75.0" text="">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+    <Button fx:id="b11" layoutX="141.0" layoutY="100.0" onAction="#getClick" prefHeight="77.0" prefWidth="75.0" text="">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+    <Button fx:id="b21" layoutX="141.0" layoutY="198.0" onAction="#getClick" prefHeight="75.0" prefWidth="75.0" text="">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+    <Button fx:id="b13" layoutX="383.0" layoutY="100.0" onAction="#getClick" prefHeight="75.0" prefWidth="75.0" text="">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+    <Button fx:id="b23" layoutX="383.0" layoutY="198.0" onAction="#getClick" prefHeight="75.0" prefWidth="75.0" text="">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+    <Button fx:id="b32" layoutX="265.0" layoutY="300.0" onAction="#getClick" prefHeight="75.0" prefWidth="75.0" text="">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+    <Button fx:id="b12" layoutX="265.0" layoutY="100.0" onAction="#getClick" prefHeight="77.0" prefWidth="75.0" text="">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+   <Label fx:id="info" layoutX="55.0" layoutY="18.0" prefHeight="17.0" prefWidth="131.0" textAlignment="CENTER" />
+   <Label fx:id="labelVez" layoutX="55.0" layoutY="18.0" prefHeight="17.0" prefWidth="131.0" textAlignment="CENTER" />
+   <Button fx:id="voltar" layoutX="14.0" layoutY="339.0" mnemonicParsing="false" onAction="#getClick" prefHeight="26.0" prefWidth="75.0" text="Voltar " />
+   <Button fx:id="jogar_novamente" layoutX="478.0" layoutY="23.0" mnemonicParsing="false" onAction="#getClick" prefHeight="17.0" prefWidth="108.0" text="Jogar novamente" visible="false" />
+</AnchorPane>
